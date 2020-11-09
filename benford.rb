@@ -1,5 +1,8 @@
 require 'amazing_print'
 
+# first digit probabilities
+#BENFORD = [0.301, 0.176, 0.125, 0.097, 0.079, 0.067, 0.058, 0.051, 0.046].freeze
+# second digit probabilities
 BENFORD = [0.1197, 0.1139, 0.1088, 0.1043, 0.1003, 0.0967, 0.0934, 0.0904, 0.0876, 0.0850].freeze
 
 def benford precinct_data

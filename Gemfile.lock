@@ -5,6 +5,7 @@ GEM
     mini_portile2 (2.4.0)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
+    rubystats (0.3.0)
 
 PLATFORMS
   ruby
@@ -12,6 +13,7 @@ PLATFORMS
 DEPENDENCIES
   amazing_print
   nokogiri
+  rubystats
 
 BUNDLED WITH
    2.1.4

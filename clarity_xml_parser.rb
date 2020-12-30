@@ -14,7 +14,6 @@ def clarity_parse_xml(filename, choice)
 
   xml.xpath('//ElectionResult//VoterTurnout//Precincts//Precinct').each do |precinct|
     p_name = precinct.attributes['name'].value
-    p_ballots = precinct.attributes['ballotsCast'].value
 
     precincts[p_name] = {}
     candidates.each do |candidate|
